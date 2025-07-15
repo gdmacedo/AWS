@@ -9,34 +9,6 @@ Prezado Gestor Financeiro, Sr. José João Antônio Maria. conforme solicitaçã
 
 ---
 
-Carta de Solicitação – Projeto de Plataforma Virtual em AWS Cloud
-
-De: José João Antônio Maria – Gestor Financeiro  
-Para: Glener Diniz Macedo – Gerente de Engenharia de Software  
-Empresa: Foot on the Keyboard Software Engineering  
-Assunto: Solicitação de desenvolvimento de plataforma virtual em nuvem com análise de viabilidade técnica e econômica
-
-Prezado Sr. Glener,
-
-Como gestor financeiro da [Distribuidora Farmacêutica – Nome da empresa], que atua como hub de distribuição conectado a diversas empresas do setor, venho por meio desta solicitar a análise técnica e o desenvolvimento de uma plataforma virtual baseada na infraestrutura da AWS.
-
-Reconheço que não possuo conhecimento técnico sobre computação em nuvem, mas compreendo que essa transformação representa uma oportunidade estratégica para modernizar nossa operação, reduzir custos e ampliar nossa capacidade de integração com drogarias e farmácias de varejo que atendem diretamente o consumidor final.
-
-Solicito que esta proposta contemple:
-
-- A concepção de uma plataforma escalável e segura em AWS
-- A descrição de tecnologias recomendadas para o projeto
-- Um demonstrativo de redução de custos comparado à infraestrutura tradicional
-
-Acreditamos que essa iniciativa poderá posicionar nossas empresas como líderes em inovação no setor farmacêutico.
-
-Atenciosamente,  
-José João Antônio Maria  
-Gestor Financeiro – [Distribuidora Farmacêutica]  
-📞 [Telefone] | 📧 [Email]
-
----
-
 Proposta Técnica – Plataforma B2B em AWS Cloud
 
 #### 1. Amazon S3 Intelligent-Tiering  
