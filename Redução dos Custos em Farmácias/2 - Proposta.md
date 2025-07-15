@@ -39,7 +39,7 @@ Gestor Financeiro – [Distribuidora Farmacêutica]
 
 Proposta Técnica – Plataforma B2B em AWS Cloud
 
-1. Amazon S3 Intelligent-Tiering  
+#### 1. Amazon S3 Intelligent-Tiering  
 Descrição: Classe de armazenamento que reduz custos automaticamente ao mover dados entre camadas de acesso conforme o uso. Ideal para arquivos grandes e com padrão de acesso imprevisível.  
 Benefícios:
 - Economia de até 68% em dados raramente acessados
@@ -47,7 +47,8 @@ Benefícios:
 - Sem necessidade de gerenciamento manual de ciclo de vida  
 Custo estimado: R$ 0,10–0,15 por GB/mês + R$ 0,01 por 1.000 objetos monitorados
 
-2. Amazon Aurora (MySQL/PostgreSQL)  
+
+#### 2. Amazon Aurora (MySQL/PostgreSQL)  
 Descrição: Banco de dados relacional gerenciado, compatível com MySQL e PostgreSQL, com alta performance e disponibilidade.  
 Benefícios:
 - Até 5x mais rápido que MySQL e 3x mais rápido que PostgreSQL
@@ -55,7 +56,9 @@ Benefícios:
 - Ideal para integração entre parceiros e gestão de dados transacionais  
 Custo estimado: R$ 0,40/hora por instância + R$ 0,10/GB de armazenamento
 
-3. Amazon VPC + Security Groups  
+
+
+#### 3. Amazon VPC + Security Groups  
 Descrição: Rede privada virtual com grupos de segurança que atuam como firewalls para controlar o tráfego de entrada e saída.  
 Benefícios:
 - Segmentação segura entre distribuidores, farmácias e clientes
