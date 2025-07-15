@@ -1,57 +1,86 @@
-# 🧪 Desafio de Projeto DIO.ME: Redução dos Custos em Farmácias com AWS
+# Proposta Técnica
+## Plataforma B2B em AWS Cloud
 
-## 📄 Relatório de Implementação de Serviços AWS
-
-**Data:** 10 de junho de 2025  
-**Empresa:** Abstergo Pharmaceutical Industries  
-**Responsável:** @karineyasmin
+## Relatório de Implementação de Serviços AWS - AWS - Amazon Web Services
 
 ---
 
-## 🧭 Introdução
-
-Este relatório apresenta o processo de implementação de novas ferramentas AWS na empresa Abstergo Pharmaceutical Industries, conduzido por @karineyasmin. O objetivo central foi selecionar três serviços AWS para reduzir custos operacionais e aumentar a eficiência dos sistemas utilizados na empresa.
+Prezado Gestor Financeiro, Sr. José João Antônio Maria. conforme solicitação, segue a proposta.
 
 ---
 
-## 🛠️ Descrição do Projeto
+Carta de Solicitação – Projeto de Plataforma Virtual em AWS Cloud
 
-O projeto foi estruturado em 3 etapas, cada uma representando a adoção de uma ferramenta com foco na redução de custos e otimização da infraestrutura.
+De: José João Antônio Maria – Gestor Financeiro  
+Para: Glener Diniz Macedo – Gerente de Engenharia de Software  
+Empresa: Foot on the Keyboard Software Engineering  
+Assunto: Solicitação de desenvolvimento de plataforma virtual em nuvem com análise de viabilidade técnica e econômica
 
-### 🔹 Etapa 1
+Prezado Sr. Glener,
 
-- **Nome da ferramenta:** AWS Fargate
-- **Foco da ferramenta:** Serviço de computação sem servidor para contêineres, que permite executar aplicações sem gerenciar servidores ou clusters.
-- **Descrição de caso de uso:** Ideal para executar aplicações em contêineres (Docker) com escalabilidade automática, sem necessidade de provisionar ou administrar infraestrutura. Muito utilizado por empresas que desejam eliminar o custo de provisionamento constante e pagar apenas pelo tempo de execução real dos contêineres.
+Como gestor financeiro da [Distribuidora Farmacêutica – Nome da empresa], que atua como hub de distribuição conectado a diversas empresas do setor, venho por meio desta solicitar a análise técnica e o desenvolvimento de uma plataforma virtual baseada na infraestrutura da AWS.
 
-### 🔹 Etapa 2
+Reconheço que não possuo conhecimento técnico sobre computação em nuvem, mas compreendo que essa transformação representa uma oportunidade estratégica para modernizar nossa operação, reduzir custos e ampliar nossa capacidade de integração com drogarias e farmácias de varejo que atendem diretamente o consumidor final.
 
-- **Nome da ferramenta:** Amazon S3 Intelligent-Tiering
-- **Foco da ferramenta:** Camada de armazenamento otimizada por custo, com movimentação automática de dados entre diferentes classes de armazenamento.
-- **Descrição de caso de uso:** Armazenamento ideal para documentos médicos, registros farmacêuticos e arquivos históricos, onde os acessos são imprevisíveis. O Intelligent-Tiering reduz custos ao mover objetos entre classes de armazenamento com base no padrão de acesso, sem afetar o desempenho.
+Solicito que esta proposta contemple:
 
-### 🔹 Etapa 3
+- A concepção de uma plataforma escalável e segura em AWS
+- A descrição de tecnologias recomendadas para o projeto
+- Um demonstrativo de redução de custos comparado à infraestrutura tradicional
 
-- **Nome da ferramenta:** AWS Lambda
-- **Foco da ferramenta:** Serviço de computação serverless que executa código em resposta a eventos e escala automaticamente.
-- **Descrição de caso de uso:** Utilizado para processar prescrições eletrônicas, realizar validações e enviar notificações sem manter infraestrutura ociosa. Como o Lambda cobra por execução e tempo de processamento, é ideal para redução de custos com cargas de trabalho event-driven.
+Acreditamos que essa iniciativa poderá posicionar nossas empresas como líderes em inovação no setor farmacêutico.
 
----
-
-## ✅ Conclusão
-
-A adoção dessas ferramentas pela Abstergo Pharmaceutical Industries resultará em custos operacionais reduzidos, infraestrutura otimizada e maior escalabilidade. Recomenda-se a manutenção e monitoramento contínuo das soluções aplicadas, além da exploração de novos serviços AWS que possam contribuir com a modernização tecnológica da empresa.
+Atenciosamente,  
+José João Antônio Maria  
+Gestor Financeiro – [Distribuidora Farmacêutica]  
+📞 [Telefone] | 📧 [Email]
 
 ---
 
-## 📎 Anexos
+Proposta Técnica – Plataforma B2B em AWS Cloud
 
-- AWS Fargate
-- Amazon S3 Intelligent-Tiering
-- AWS Lambda
+1. Amazon S3 Intelligent-Tiering  
+Descrição: Classe de armazenamento que reduz custos automaticamente ao mover dados entre camadas de acesso conforme o uso. Ideal para arquivos grandes e com padrão de acesso imprevisível.  
+Benefícios:
+- Economia de até 68% em dados raramente acessados
+- Alta durabilidade (99.999999999%) e disponibilidade
+- Sem necessidade de gerenciamento manual de ciclo de vida  
+Custo estimado: R$ 0,10–0,15 por GB/mês + R$ 0,01 por 1.000 objetos monitorados
+
+2. Amazon Aurora (MySQL/PostgreSQL)  
+Descrição: Banco de dados relacional gerenciado, compatível com MySQL e PostgreSQL, com alta performance e disponibilidade.  
+Benefícios:
+- Até 5x mais rápido que MySQL e 3x mais rápido que PostgreSQL
+- Failover automático, backups contínuos e escalabilidade sob demanda
+- Ideal para integração entre parceiros e gestão de dados transacionais  
+Custo estimado: R$ 0,40/hora por instância + R$ 0,10/GB de armazenamento
+
+3. Amazon VPC + Security Groups  
+Descrição: Rede privada virtual com grupos de segurança que atuam como firewalls para controlar o tráfego de entrada e saída.  
+Benefícios:
+- Segmentação segura entre distribuidores, farmácias e clientes
+- Regras configuráveis por IP, porta e protocolo
+- Sem custo adicional para uso de Security Groups  
+Custo estimado: R$ 0 (incluso na configuração da VPC)
 
 ---
 
-**Assinatura do Responsável pelo Projeto:**  
-@karineyasmin
+Resumo Financeiro Estimado
 
+| Item                          | Infraestrutura Tradicional | AWS Cloud (estimado) |
+|------------------------------|-----------------------------|-----------------------|
+| Armazenamento de arquivos    | R$ 5.000/mês                | R$ 1.200/mês          |
+| Banco de dados gerenciado    | R$ 4.000/mês                | R$ 1.800/mês          |
+| Segurança e rede privada     | R$ 3.000/mês                | R$ 0 (Security Groups)|
+| **Total Mensal**             | **R$ 12.000**               | **R$ 3.000–4.000**    |
+| **Economia Potencial (%)**   | —                           | **-70% aproximadamente** |
+
+---
+
+
+Atenciosamente, fico a disposição para esclarecer qualquer duvida.
+
+
+Glener Diniz Macedo - Gerente do Departamento de Engenharia de Software. 
+**Empresa:**  
+Foot on the Keyboard Software Engineering.
