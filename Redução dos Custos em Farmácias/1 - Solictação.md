@@ -1,19 +1,18 @@
 # Carta de Solicitação
 ## Implantação de Plataforma Cloud na AWS
 
-**De:** José João Antônio Maria - Gestor Financeiro. 
-
+**De:** José João Antônio Maria - Gestor Financeiro.\samp
 **DIOF**- Distribuidora Internacional de Operações Farmacêuticas.
 
 
-**Para:**
+**Para:**\samp
 Glener Diniz Macedo - Gerente do Departamento de Engenharia de Software. 
 
-**Empresa:**  
+**Empresa:**\samp
 Foot on the Keyboard Software Engineering.
 
 
-Assunto: 
+Assunto:\samp
 Solicitação de desenvolvimento de projeto de infraestrutura em nuvem com estimativa de redução de custos.
 
 
