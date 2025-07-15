@@ -6,7 +6,6 @@ DIOF - distribuidora internacional de operações farmacêuticas
 
 Para: 
 Glener Diniz Macedo - Gerente do Departamento de Engenharia de Software 
-
 Empresa:  
 Foot on the Keyboard Software Engineering
 
@@ -41,7 +40,9 @@ Agradeço desde já pela atenção e aguardo retorno para agendarmos uma reuniã
 
 Atenciosamente, 
 
-José João Antônio Maria 
-Gestor Financeiro – 
-DIOF - distribuidora internacional de operações farmacêuticas
+José João Antônio Maria.
+Gestor Financeiro
+
+DIOF - distribuidora internacional de operações farmacêuticas.
+
 📞 +55 11 9.8549-7412     |     📧 jja.maria@email.diof.diof
